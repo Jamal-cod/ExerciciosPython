@@ -1,0 +1,7 @@
+tip = input('Digite algo: ')
+print('O tipo primitivo desse valor é', type(tip))
+print('Esse valor é númerico:', tip.isnumeric())
+print('Esse valor é alfabético:', tip.isalpha())
+print('Esse valor é alfanúmerico:', tip.isalnum())
+print('Esse valor esta em letra minúscula:', tip.islower())
+print('Esse valor esta em letra maiuscúla:', tip.isupper())
